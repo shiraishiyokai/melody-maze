@@ -1,0 +1,5 @@
+# 二进制文件 — 禁止 git 换行符转换
+*.pck binary
+*.wasm binary
+*.png binary
+*.ico binary
