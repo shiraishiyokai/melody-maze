@@ -73,15 +73,15 @@ const POINTS_PER_RELIC: int = 200
 const POINTS_PER_UPGRADE: int = 50
 
 # Character ID → name mapping
-	const CHAR_NAMES = {
-		1: "星乃一歌",
-		2: "白石杏",
-		13: "天馬司",
-		14: "鳳えむ",
-		16: "神代類",
-		17: "宵崎奏",
-		20: "暁山瑞希",
-	}
+const CHAR_NAMES = {
+	1: "星乃一歌",
+	2: "白石杏",
+	13: "天馬司",
+	14: "鳳えむ",
+	16: "神代類",
+	17: "宵崎奏",
+	20: "暁山瑞希",
+}
 
 
 static func calculate() -> ScoreResult:
