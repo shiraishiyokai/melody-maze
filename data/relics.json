@@ -1,0 +1,242 @@
+[
+  {
+    "id": "muffler",
+    "name": "消音器",
+    "description": "受到攻击伤害-1",
+    "rarity": "common",
+    "price": 150,
+    "boss_only": false
+  },
+  {
+    "id": "metronome",
+    "name": "节拍器",
+    "description": "战斗前2回合每回合额外抽1牌",
+    "rarity": "common",
+    "price": 120,
+    "boss_only": false
+  },
+  {
+    "id": "chorus_pedal",
+    "name": "合唱踏板",
+    "description": "和声触发时获得2护盾",
+    "rarity": "common",
+    "price": 120,
+    "boss_only": false
+  },
+  {
+    "id": "drum_stick",
+    "name": "鼓槌",
+    "description": "击杀敌人回复3HP",
+    "rarity": "common",
+    "price": 120,
+    "boss_only": false
+  },
+  {
+    "id": "vinyl_record",
+    "name": "黑胶唱片",
+    "description": "战斗开始时获得4护盾",
+    "rarity": "common",
+    "price": 150,
+    "boss_only": false
+  },
+  {
+    "id": "cassette_tape",
+    "name": "磁带",
+    "description": "首次和声触发时额外抽1牌",
+    "rarity": "common",
+    "price": 120,
+    "boss_only": false
+  },
+  {
+    "id": "audio_interface",
+    "name": "声卡",
+    "description": "商店物品打8折",
+    "rarity": "common",
+    "price": 100,
+    "boss_only": false
+  },
+  {
+    "id": "pitch_pipe",
+    "name": "音笛",
+    "description": "每回合第一张攻击牌+2伤害",
+    "rarity": "common",
+    "price": 130,
+    "boss_only": false
+  },
+  {
+    "id": "music_stand",
+    "name": "谱架",
+    "description": "每回合第一张防御牌+2护盾",
+    "rarity": "common",
+    "price": 130,
+    "boss_only": false
+  },
+  {
+    "id": "tuning_key",
+    "name": "调律钥匙",
+    "description": "篝火休息额外回复5HP",
+    "rarity": "common",
+    "price": 100,
+    "boss_only": false
+  },
+  {
+    "id": "speaker_cone",
+    "name": "喇叭",
+    "description": "手牌≤3时攻击+2",
+    "rarity": "common",
+    "price": 130,
+    "boss_only": false
+  },
+  {
+    "id": "harmony_bell",
+    "name": "和声铃",
+    "description": "每场战斗第2次和声触发时回复2HP",
+    "rarity": "common",
+    "price": 120,
+    "boss_only": false
+  },
+  {
+    "id": "tuning_fork",
+    "name": "调律叉",
+    "description": "每回合+1能量，但每回合少抽1牌",
+    "rarity": "rare",
+    "price": 250,
+    "boss_only": true
+  },
+  {
+    "id": "radio",
+    "name": "收音机",
+    "description": "每回合额外抽1牌",
+    "rarity": "rare",
+    "price": 250,
+    "boss_only": false
+  },
+  {
+    "id": "resonance_fork",
+    "name": "共振叉",
+    "description": "和声触发时+3伤害",
+    "rarity": "rare",
+    "price": 200,
+    "boss_only": false
+  },
+  {
+    "id": "distortion_pedal",
+    "name": "失真踏板",
+    "description": "攻击伤害+3，每回合开始失去1HP",
+    "rarity": "rare",
+    "price": 200,
+    "boss_only": false
+  },
+  {
+    "id": "reverb_plate",
+    "name": "混响板",
+    "description": "护盾+3，每回合开始失去1HP",
+    "rarity": "rare",
+    "price": 200,
+    "boss_only": false
+  },
+  {
+    "id": "echo_chamber",
+    "name": "回音室",
+    "description": "和声触发时+1力量(本战斗)",
+    "rarity": "rare",
+    "price": 200,
+    "boss_only": false
+  },
+  {
+    "id": "headphone",
+    "name": "耳机",
+    "description": "每回合第一张牌费用-1",
+    "rarity": "rare",
+    "price": 250,
+    "boss_only": false
+  },
+  {
+    "id": "wah_pedal",
+    "name": "哇音踏板",
+    "description": "每打出3张牌，下张牌费用为0",
+    "rarity": "rare",
+    "price": 200,
+    "boss_only": false
+  },
+  {
+    "id": "sustain_pedal",
+    "name": "延音踏板",
+    "description": "弃牌堆≥8时攻击+4",
+    "rarity": "rare",
+    "price": 200,
+    "boss_only": false
+  },
+  {
+    "id": "microphone",
+    "name": "麦克风",
+    "description": "技能抽牌效果+1",
+    "rarity": "rare",
+    "price": 200,
+    "boss_only": false
+  },
+  {
+    "id": "subwoofer",
+    "name": "低音炮",
+    "description": "AOE伤害+3",
+    "rarity": "rare",
+    "price": 200,
+    "boss_only": false
+  },
+  {
+    "id": "dark_room",
+    "name": "暗室",
+    "description": "敌人意图为攻击时，受到伤害-3",
+    "rarity": "rare",
+    "price": 200,
+    "boss_only": false
+  },
+  {
+    "id": "soundproof_hood",
+    "name": "隔音头罩",
+    "description": "受到伤害时30%概率减半",
+    "rarity": "legendary",
+    "price": 300,
+    "boss_only": false
+  },
+  {
+    "id": "amplifier",
+    "name": "扩音器",
+    "description": "攻击伤害按金币/50取整加成",
+    "rarity": "legendary",
+    "price": 300,
+    "boss_only": false
+  },
+  {
+    "id": "grand_piano",
+    "name": "三角钢琴",
+    "description": "每拥有3个遗物，战斗开始+1能量",
+    "rarity": "legendary",
+    "price": 300,
+    "boss_only": true
+  },
+  {
+    "id": "finale_scroll",
+    "name": "终章乐谱",
+    "description": "终章卡牌伤害+50%",
+    "rarity": "legendary",
+    "price": 300,
+    "boss_only": false
+  },
+  {
+    "id": "old_metronome",
+    "name": "旧节拍器",
+    "description": "获得永久+1力量",
+    "rarity": "common",
+    "price": 100,
+    "boss_only": false
+  },
+  {
+    "id": "resonance_shard",
+    "name": "共鸣碎片",
+    "description": "和声触发时额外+2伤害",
+    "rarity": "rare",
+    "price": 200,
+    "boss_only": false
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "id": "echo_spring",
+    "name": "回声之泉",
+    "description": "你发现了一处散发着微光的泉水，水面倒映着陌生的旋律。泉水的声音仿佛在低语，邀请你品尝它的力量...",
+    "choices": [
+      {
+        "text": "饮用泉水",
+        "effects": [{"type": "heal", "value": 15}]
+      },
+      {
+        "text": "投入金币许愿",
+        "effects": [
+          {"type": "spend_gold", "value": 15},
+          {"type": "heal", "value": 25}
+        ],
+        "condition": "gold >= 15"
+      }
+    ]
+  },
+  {
+    "id": "forgotten_score",
+    "name": "遗忘乐谱",
+    "description": "地上散落着泛黄的乐谱，上面记载着陌生的技法。乐谱上的音符依然清晰可辨，似乎在等待有人再次奏响...",
+    "choices": [
+      {
+        "text": "研读乐谱",
+        "effects": [{"type": "upgrade_random", "value": 2}]
+      },
+      {
+        "text": "拿去换钱",
+        "effects": [{"type": "add_gold", "value": 30}]
+      }
+    ]
+  },
+  {
+    "id": "broken_instrument",
+    "name": "破损的乐器",
+    "description": "一件损坏的乐器静静躺在路边，虽已残破，仍能感受到残留的音之力量的微弱脉动...",
+    "choices": [
+      {
+        "text": "修复乐器（耗损精力）",
+        "effects": [
+          {"type": "damage", "value": 5},
+          {"type": "add_relic", "relic_id": "old_metronome"}
+        ]
+      },
+      {
+        "text": "拆取零件",
+        "effects": [{"type": "add_gold", "value": 20}]
+      }
+    ]
+  },
+  {
+    "id": "noise_rift",
+    "name": "噪音裂缝",
+    "description": "一道不协和的裂缝撕裂了空间，刺耳的噪音不断涌出。裂缝中蕴含着混沌而强大的力量...",
+    "choices": [
+      {
+        "text": "吸收裂缝能量",
+        "effects": [
+          {"type": "damage", "value": 8},
+          {"type": "add_card", "card_id": "event_dissonance"}
+        ]
+      },
+      {
+        "text": "稳妥绕行",
+        "effects": [{"type": "add_basic_card", "value": 1}]
+      }
+    ]
+  },
+  {
+    "id": "melody_trade",
+    "name": "旋律交易",
+    "description": "一位神秘的旅行商向你招手，他的行囊中散发着奇妙的音符气息...",
+    "choices": [
+      {
+        "text": "以血换牌",
+        "effects": [
+          {"type": "damage", "value": 5},
+          {"type": "add_random_rare_card", "value": 1}
+        ]
+      },
+      {
+        "text": "以金换牌",
+        "effects": [
+          {"type": "spend_gold", "value": 50},
+          {"type": "add_random_rare_card", "value": 1}
+        ],
+        "condition": "gold >= 50"
+      },
+      {
+        "text": "不交易",
+        "effects": []
+      }
+    ]
+  },
+  {
+    "id": "silent_forest",
+    "name": "寂静之森",
+    "description": "一片没有声音的森林，连脚步声都被吞噬。深处隐约闪烁着微光，也许是宝物，也许是陷阱...",
+    "choices": [
+      {
+        "text": "冥想静修",
+        "effects": [{"type": "heal", "value": 10}]
+      },
+      {
+        "text": "探索深处",
+        "effects": [{"type": "random_outcome", "chance": 50,
+          "effects_a": [{"type": "add_relic", "relic_id": "resonance_shard"}],
+          "effects_b": [{"type": "damage", "value": 8}]
+        }]
+      }
+    ]
+  },
+  {
+    "id": "stage_memory",
+    "name": "舞台的回忆",
+    "description": "舞台上的灯光依然明亮，旧日的演出仿佛昨日。回忆带来温暖，但放下过去也许能走得更远...",
+    "choices": [
+      {
+        "text": "回忆辉煌",
+        "effects": [
+          {"type": "upgrade_random", "value": 1},
+          {"type": "heal", "value": 5}
+        ]
+      },
+      {
+        "text": "放下过去",
+        "effects": [{"type": "remove_card_choice"}]
+      }
+    ]
+  },
+  {
+    "id": "musician_gift",
+    "name": "乐师的馈赠",
+    "description": "一位老乐师微笑着递来一份礼物，他的眼中闪烁着温和的光芒...",
+    "choices": [
+      {
+        "text": "接受馈赠",
+        "effects": [{"type": "add_card", "card_id": "event_tuning_note"}]
+      },
+      {
+        "text": "请教技艺",
+        "effects": [{"type": "upgrade_random", "value": 1}]
+      }
+    ]
+  },
+  {
+    "id": "musician_trial",
+    "name": "乐师的试炼",
+    "description": "一位老乐师提出考验：交出一张基础的旋律，他将赐予你更强力的音符...",
+    "choices": [
+      {
+        "text": "接受试炼",
+        "effects": [{"type": "transform_basic"}],
+        "condition": "has_basic_card"
+      },
+      {
+        "text": "拒绝试炼",
+        "effects": [{"type": "heal", "value": 5}]
+      }
+    ]
+  },
+  {
+    "id": "resonance_crystal",
+    "name": "共鸣水晶",
+    "description": "一块散发柔和光芒的水晶，随你的呼吸闪烁。触碰它也许能获得治愈，带走它也许能获得长久的力量...",
+    "choices": [
+      {
+        "text": "触碰水晶",
+        "effects": [{"type": "heal_or_gold", "threshold": 50, "heal": 20, "gold": 20}]
+      },
+      {
+        "text": "带走水晶",
+        "effects": [{"type": "add_relic", "relic_id": "old_metronome"}]
+      },
+      {
+        "text": "仔细研究",
+        "effects": [{"type": "remove_card_choice"}]
+      }
+    ]
+  }
+]

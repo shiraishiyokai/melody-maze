@@ -1,0 +1,747 @@
+[
+  {
+    "id": "noise_slime",
+    "enemy_name": "噪音史莱姆",
+    "tier": "normal",
+    "layer": 1,
+    "min_hp": 28,
+    "max_hp": 35,
+    "image_path": "res://assets/enemies/noise_slime.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 9,
+        "weight": 3
+      },
+      {
+        "intent": "attack",
+        "value": 13,
+        "weight": 2
+      },
+      {
+        "intent": "defend",
+        "value": 6,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "dissonant_bat",
+    "enemy_name": "失调蝙蝠",
+    "tier": "normal",
+    "layer": 1,
+    "min_hp": 32,
+    "max_hp": 40,
+    "image_path": "res://assets/enemies/dissonant_bat.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 7,
+        "weight": 3
+      },
+      {
+        "intent": "attack",
+        "value": 11,
+        "weight": 1
+      },
+      {
+        "intent": "debuff",
+        "value": 2,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "echo_ghost",
+    "enemy_name": "回响幽灵",
+    "tier": "normal",
+    "layer": 1,
+    "min_hp": 30,
+    "max_hp": 38,
+    "image_path": "res://assets/enemies/echo_ghost.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 11,
+        "weight": 3
+      },
+      {
+        "intent": "attack",
+        "value": 16,
+        "weight": 1
+      },
+      {
+        "intent": "defend",
+        "value": 6,
+        "weight": 1,
+        "effect_id": "self_heal_2"
+      }
+    ]
+  },
+  {
+    "id": "offbeat_robot",
+    "enemy_name": "走音机器人",
+    "tier": "normal",
+    "layer": 1,
+    "min_hp": 35,
+    "max_hp": 45,
+    "image_path": "res://assets/enemies/offbeat_robot.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 8,
+        "weight": 4
+      },
+      {
+        "intent": "attack",
+        "value": 12,
+        "weight": 2
+      },
+      {
+        "intent": "empower",
+        "value": 3,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "mixing_beast",
+    "enemy_name": "混音巨兽",
+    "tier": "elite",
+    "layer": 1,
+    "min_hp": 55,
+    "max_hp": 70,
+    "image_path": "res://assets/enemies/mixing_beast.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 12,
+        "weight": 3
+      },
+      {
+        "intent": "attack",
+        "value": 18,
+        "weight": 1
+      },
+      {
+        "intent": "buff",
+        "value": 3,
+        "weight": 1
+      },
+      {
+        "intent": "defend",
+        "value": 10,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "chord_guardian",
+    "enemy_name": "和弦守护者",
+    "tier": "elite",
+    "layer": 1,
+    "min_hp": 60,
+    "max_hp": 75,
+    "image_path": "res://assets/enemies/chord_guardian.svg",
+    "moves": [
+      {
+        "intent": "defend",
+        "value": 12,
+        "weight": 2
+      },
+      {
+        "intent": "attack",
+        "value": 14,
+        "weight": 3
+      },
+      {
+        "intent": "buff",
+        "value": 3,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "noise_king",
+    "enemy_name": "噪音之王",
+    "tier": "boss",
+    "layer": 1,
+    "min_hp": 90,
+    "max_hp": 110,
+    "image_path": "res://assets/enemies/noise_king.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 14,
+        "weight": 2
+      },
+      {
+        "intent": "attack",
+        "value": 22,
+        "weight": 2
+      },
+      {
+        "intent": "attack",
+        "value": 30,
+        "weight": 1
+      },
+      {
+        "intent": "buff",
+        "value": 4,
+        "weight": 1
+      },
+      {
+        "intent": "defend",
+        "value": 10,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "chaos_musician",
+    "enemy_name": "混乱乐师",
+    "tier": "normal",
+    "layer": 2,
+    "min_hp": 40,
+    "max_hp": 50,
+    "image_path": "res://assets/enemies/chaos_musician.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 10,
+        "weight": 3
+      },
+      {
+        "intent": "defend",
+        "value": 8,
+        "weight": 2
+      },
+      {
+        "intent": "empower",
+        "value": 2,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "bass_crawler",
+    "enemy_name": "低频蠕虫",
+    "tier": "normal",
+    "layer": 2,
+    "min_hp": 45,
+    "max_hp": 55,
+    "image_path": "res://assets/enemies/bass_crawler.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 8,
+        "weight": 3
+      },
+      {
+        "intent": "attack",
+        "value": 14,
+        "weight": 1
+      },
+      {
+        "intent": "defend",
+        "value": 10,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "melody_serpent",
+    "enemy_name": "旋律蛇",
+    "tier": "normal",
+    "layer": 2,
+    "min_hp": 38,
+    "max_hp": 48,
+    "image_path": "res://assets/enemies/melody_serpent.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 13,
+        "weight": 3
+      },
+      {
+        "intent": "debuff",
+        "value": 2,
+        "weight": 1
+      },
+      {
+        "intent": "defend",
+        "value": 6,
+        "weight": 1,
+        "effect_id": "self_heal_3"
+      }
+    ]
+  },
+  {
+    "id": "distortion_mirror",
+    "enemy_name": "失真镜像",
+    "tier": "normal",
+    "layer": 2,
+    "min_hp": 42,
+    "max_hp": 52,
+    "image_path": "res://assets/enemies/distortion_mirror.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 11,
+        "weight": 3
+      },
+      {
+        "intent": "attack",
+        "value": 16,
+        "weight": 1
+      },
+      {
+        "intent": "debuff",
+        "value": 2,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "rhythm_demon",
+    "enemy_name": "节奏恶魔",
+    "tier": "elite",
+    "layer": 2,
+    "min_hp": 75,
+    "max_hp": 90,
+    "image_path": "res://assets/enemies/rhythm_demon.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 9,
+        "weight": 2
+      },
+      {
+        "intent": "attack",
+        "value": 18,
+        "weight": 2
+      },
+      {
+        "intent": "empower",
+        "value": 3,
+        "weight": 1
+      },
+      {
+        "intent": "defend",
+        "value": 8,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "spin_symphony",
+    "enemy_name": "回旋交响",
+    "tier": "elite",
+    "layer": 2,
+    "min_hp": 80,
+    "max_hp": 95,
+    "image_path": "res://assets/enemies/spin_symphony.svg",
+    "moves": [
+      {
+        "intent": "defend",
+        "value": 14,
+        "weight": 2
+      },
+      {
+        "intent": "attack",
+        "value": 16,
+        "weight": 2
+      },
+      {
+        "intent": "attack",
+        "value": 20,
+        "weight": 1
+      },
+      {
+        "intent": "buff",
+        "value": 3,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "silence_lord",
+    "enemy_name": "静默之主",
+    "tier": "boss",
+    "layer": 2,
+    "min_hp": 120,
+    "max_hp": 150,
+    "image_path": "res://assets/enemies/silence_lord.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 18,
+        "weight": 2
+      },
+      {
+        "intent": "attack",
+        "value": 26,
+        "weight": 2
+      },
+      {
+        "intent": "attack",
+        "value": 35,
+        "weight": 1
+      },
+      {
+        "intent": "debuff",
+        "value": 3,
+        "weight": 1
+      },
+      {
+        "intent": "buff",
+        "value": 4,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "void_echo",
+    "enemy_name": "虚空回声",
+    "tier": "normal",
+    "layer": 3,
+    "min_hp": 50,
+    "max_hp": 60,
+    "image_path": "res://assets/enemies/void_echo.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 16,
+        "weight": 3
+      },
+      {
+        "intent": "attack",
+        "value": 22,
+        "weight": 1
+      },
+      {
+        "intent": "debuff",
+        "value": 2,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "broken_tuning",
+    "enemy_name": "断裂调弦",
+    "tier": "normal",
+    "layer": 3,
+    "min_hp": 55,
+    "max_hp": 65,
+    "image_path": "res://assets/enemies/broken_tuning.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 10,
+        "weight": 3
+      },
+      {
+        "intent": "attack",
+        "value": 18,
+        "weight": 1
+      },
+      {
+        "intent": "empower",
+        "value": 3,
+        "weight": 1
+      },
+      {
+        "intent": "defend",
+        "value": 8,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "silent_assassin",
+    "enemy_name": "静音刺客",
+    "tier": "normal",
+    "layer": 3,
+    "min_hp": 45,
+    "max_hp": 55,
+    "image_path": "res://assets/enemies/silent_assassin.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 24,
+        "weight": 2
+      },
+      {
+        "intent": "attack",
+        "value": 14,
+        "weight": 2
+      },
+      {
+        "intent": "defend",
+        "value": 6,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "resonance_tyrant",
+    "enemy_name": "共振暴君",
+    "tier": "elite",
+    "layer": 3,
+    "min_hp": 95,
+    "max_hp": 110,
+    "image_path": "res://assets/enemies/resonance_tyrant.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 16,
+        "weight": 3
+      },
+      {
+        "intent": "attack",
+        "value": 22,
+        "weight": 1
+      },
+      {
+        "intent": "buff",
+        "value": 3,
+        "weight": 1
+      },
+      {
+        "intent": "defend",
+        "value": 12,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "final_chorus",
+    "enemy_name": "终末合唱",
+    "tier": "elite",
+    "layer": 3,
+    "min_hp": 100,
+    "max_hp": 120,
+    "image_path": "res://assets/enemies/final_chorus.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 18,
+        "weight": 2
+      },
+      {
+        "intent": "attack",
+        "value": 26,
+        "weight": 2
+      },
+      {
+        "intent": "empower",
+        "value": 5,
+        "weight": 1
+      },
+      {
+        "intent": "defend",
+        "value": 14,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "void_tuner",
+    "enemy_name": "虚无调律师",
+    "tier": "boss",
+    "layer": 3,
+    "min_hp": 160,
+    "max_hp": 200,
+    "image_path": "res://assets/enemies/void_tuner.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 20,
+        "weight": 2
+      },
+      {
+        "intent": "attack",
+        "value": 32,
+        "weight": 1
+      },
+      {
+        "intent": "buff",
+        "value": 5,
+        "weight": 1
+      },
+      {
+        "intent": "debuff",
+        "value": 3,
+        "weight": 1
+      },
+      {
+        "intent": "defend",
+        "value": 14,
+        "weight": 1
+      },
+      {
+        "intent": "empower",
+        "value": 4,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "dissonance_wraith",
+    "enemy_name": "不协和幽灵",
+    "tier": "normal",
+    "layer": 4,
+    "min_hp": 58,
+    "max_hp": 72,
+    "image_path": "res://assets/enemies/dissonance_wraith.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 14,
+        "weight": 3
+      },
+      {
+        "intent": "attack",
+        "value": 10,
+        "weight": 2
+      },
+      {
+        "intent": "buff",
+        "value": 3,
+        "weight": 1
+      },
+      {
+        "intent": "defend",
+        "value": 12,
+        "weight": 1,
+        "effect_id": "self_heal_3"
+      }
+    ]
+  },
+  {
+    "id": "chaotic_conductor",
+    "enemy_name": "混沌指挥家",
+    "tier": "normal",
+    "layer": 4,
+    "min_hp": 62,
+    "max_hp": 78,
+    "image_path": "res://assets/enemies/chaotic_conductor.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 12,
+        "weight": 3
+      },
+      {
+        "intent": "buff",
+        "value": 4,
+        "weight": 2
+      },
+      {
+        "intent": "debuff",
+        "value": 2,
+        "weight": 2
+      },
+      {
+        "intent": "attack",
+        "value": 18,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "static_horror",
+    "enemy_name": "静电恐魔",
+    "tier": "normal",
+    "layer": 4,
+    "min_hp": 50,
+    "max_hp": 65,
+    "image_path": "res://assets/enemies/static_horror.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 16,
+        "weight": 3
+      },
+      {
+        "intent": "debuff",
+        "value": 2,
+        "weight": 2
+      },
+      {
+        "intent": "attack",
+        "value": 8,
+        "weight": 2,
+        "effect_id": "self_heal_2"
+      },
+      {
+        "intent": "empower",
+        "value": 3,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "noise_king_elite",
+    "enemy_name": "噪音之王",
+    "tier": "elite",
+    "layer": 4,
+    "min_hp": 90,
+    "max_hp": 105,
+    "image_path": "res://assets/enemies/noise_king.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 16,
+        "weight": 3
+      },
+      {
+        "intent": "buff",
+        "value": 3,
+        "weight": 2
+      },
+      {
+        "intent": "attack",
+        "value": 22,
+        "weight": 2
+      },
+      {
+        "intent": "empower",
+        "value": 4,
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "id": "silence_lord_elite",
+    "enemy_name": "静默之主",
+    "tier": "elite",
+    "layer": 4,
+    "min_hp": 100,
+    "max_hp": 118,
+    "image_path": "res://assets/enemies/silence_lord.svg",
+    "moves": [
+      {
+        "intent": "attack",
+        "value": 18,
+        "weight": 3
+      },
+      {
+        "intent": "debuff",
+        "value": 2,
+        "weight": 2
+      },
+      {
+        "intent": "defend",
+        "value": 15,
+        "weight": 1,
+        "effect_id": "self_heal_3"
+      },
+      {
+        "intent": "attack",
+        "value": 26,
+        "weight": 1
+      }
+    ]
+  }
+]
